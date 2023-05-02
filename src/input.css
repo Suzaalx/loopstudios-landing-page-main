@@ -14,3 +14,9 @@
     box-sizing: border-box;
     
 }
+.show{
+    @apply block lg:hidden;
+}
+.hide{
+    @apply hidden lg:block;
+}
