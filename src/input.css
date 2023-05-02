@@ -20,3 +20,26 @@
 .hide{
     @apply hidden lg:block;
 }
+.glass{
+    @apply h-full w-full rounded bg-clip-padding backdrop-filter bg-black backdrop-blur-none bg-opacity-50 border ;
+}
+.grid-mob{
+    @apply h-40  md:h-[12rem] rounded  bg-cover bg-no-repeat 
+}
+.grid-desk{
+    @apply lg:h-[28rem] rounded bg-cover bg-right-bottom  bg-no-repeat bg-blend-darken 
+}
+.p-desk{
+    @apply text-4xl mt-64 uppercase z-50  px-8 py-6 
+}
+.glass:hover{
+    @apply bg-gray-300 bg-opacity-60 text-black;
+}
+
+.p-mob{
+    @apply  uppercase text-3xl mt-28 pb-4;
+}
+.grid-desk:hover,
+.grid-mob:hover{
+    @apply bg-gray-300 bg-opacity-60 text-black;
+}
