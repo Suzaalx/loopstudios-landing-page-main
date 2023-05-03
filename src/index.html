@@ -12,19 +12,19 @@
   
 
 </head>
-<body class="font-Atlata  ">
+<body class="font-Alata  ">
 <!-------------------------- Header----------------- -->
 <div class="root">
-<header class=" max-w-full min-h-[85vh] text-white bg-[url('../images/desktop/image-hero.jpg')] bg-cover bg-blend-multiply py-20 px-12 lg:px-40 ">
+<header class=" max-w-full min-h-[85vh] text-white bg-[url('../images/desktop/image-hero.jpg')] bg-cover bg-blend-multiply py-12 px-12 lg:px-40 ">
 
-  <div class="flex justify-between items-center mb-48">
-    <div class="logo z-20">
+  <div class="flex justify-between items-center mb-28">
+    <div class="logo z-5 ">
       <img src="../images/logo.svg" alt="logo">
     </div>
     
     <nav >
       <!-- -----navbar for desktop -->
-      <ul class="hidden lg:flex flex-row text-center gap-8 xl:gap-12 xl:text-2xl text-xl">
+      <ul class="hidden lg:flex flex-row text-center gap-8 xl:gap-12   text-xl">
         <li><a href="#" class="btn" role="button">About</a></li>
         <li><a href="#" class="btn" role="button">Careers</a></li>
         <li><a href="#" class="btn" role="button">Events</a></li>
@@ -32,22 +32,22 @@
         <li><a href="#" class="btn" role="button">Support</a></li>
       </ul>
       <div class="">
-        <button class="btn lg:hidden" role="button" id="hamburger"><i class="text-2xl fa-solid fa-bars"></i></button>
+        <button class="lg:hidden" role="button" id="hamburger"><i class="text-2xl fa-solid fa-bars"></i></button>
 
       </div>
-      <!-- navbar for mobile/tablet -->
+     
 
 
     </nav>
 
 
   </div>
-
-  <div class=" hidden absolute left-0 top-0 min-w-full min-h-[90vh] bg-black text-white z-10"id=mob-nav>
-    <button class="btn lg:hidden absolute py-20 right-0 px-12" role="button" id="close-nav">
+<!-- ----------------------mobile nav----------------- -->
+  <div class=" hidden absolute left-0 top-0 min-w-full min-h-[100vh] bg-black text-white z-30"id=mob-nav>
+    <button class="btn lg:hidden absolute py-12 right-0 px-12" role="button" id="close-nav">
       <i class="fa-solid fa-xmark text-2xl"></i>
     </button>
-    <ul class=" flex flex-col px-10 gap-12 py-16 translate-y-1/2 text-2xl ">
+    <ul class=" flex flex-col mr-24 px-10 gap-10 py-8 translate-y-1/2 text-lg ">
       <li><a href="#" class="btn" role="button">About</a></li>
       <li><a href="#" class="btn" role="button">Careers</a></li>
       <li><a href="#" class="btn" role="button">Events</a></li>
@@ -55,8 +55,8 @@
       <li><a href="#" class="btn" role="button">Support</a></li>
     </ul>
   </div>
-  <div class=" border-2 max-w-[35rem] lg:max-w-[48rem] flex items-center justify-center  p-8  ">
-      <h1 class=" text-5xl lg:text-8xl uppercase  font-extralight ">Immersive experiences that deliver</h1>
+  <div class=" border-2 max-w-[35rem] lg:max-w-[42rem] flex items-center justify-center  p-8  ">
+      <h1 class=" text-5xl lg:text-7xl uppercase font-Josefin font-extralight ">Immersive experiences that deliver</h1>
 
   </div>
 </header>
@@ -67,9 +67,9 @@
       <div class="  md:col-span-2 h-[30rem] md:h-[30rem] lg:h-[32rem]">
         <img src="../images/desktop/image-interactive.jpg" alt="interactive" class="w-full h-full object-cover">
       </div>
-      <div class="md:hidden text-center">
-        <h2 class=" text-3xl  uppercase  p-6">The leader in interactive VR</h2>
-        <p class="mt-2 ">
+      <div class="md:hidden text-center  ">
+        <h2 class=" text-3xl  uppercase font-Josefin font-extralight p-6">The leader in interactive VR</h2>
+        <p class="mt-2 text-xs text-gray-600 ">
           Founded in 2011, Loopstudios has been producing world-class virtual reality 
           projects for some of the best companies around the globe. Our award-winning 
           creations have transformed businesses through digital experiences that bind 
@@ -79,9 +79,9 @@
     
     </div>
     
-    <div class="hidden md:block text absolute w-[28rem] h-[18rem]  lg:w-[34rem]  lg:h-[20rem] text-center right-4 bg-white z-50 top-48  px-8 pt-8  lg:px-12 lg:pt-12 border ">
-    <h3 class="text-4xl lg:text-5xl uppercase  p-4">The leader in interactive VR</h3>
-    <p class="mt-6 lg:mt-8 ">
+    <div class="hidden md:block text absolute w-[28rem] h-[18rem]  lg:w-[34rem]  lg:h-[20rem] text-center right-4 bg-white z-20 top-48  px-8 pt-8  lg:px-12 lg:pt-12 rounded ">
+    <h3 class="text-4xl lg:text-5xl uppercase font-Josefin font-light  p-4">The leader in interactive VR</h3>
+    <p class="mt-6 text-sm tracking-wider text-gray-600 ">
     Founded in 2011, Loopstudios has been producing world-class virtual reality 
     projects for some of the best companies around the globe. Our award-winning 
     creations have transformed businesses through digital experiences that bind 
@@ -92,7 +92,7 @@
   <section class="">
     <div class="md:flex justify-between items-center text-center mb-12 ">
       <h4 class="text-6xl uppercase ">our creations</h4>
-      <button class=" hidden md:block bg-black w-32 h-12 text-white">See all</button>
+      <button class=" see border-black border-2 hidden md:block uppercase tracking-wider font-bold font-Josefin w-32 h-12 text-black">See all</button>
     </div>
     
     <!-- create a grid of image which changes with respect to width of device. -->
@@ -176,87 +176,47 @@
 
 </main>
 
-<footer class="px-12 lg:px-40 mt-40 bg-black">
-  <nav class="flex justify-between pt-12">
+<footer class="px-12 lg:px-40 mt-40 bg-black text-white relative text-xs">
+  <nav class="flex flex-col lg:flex-row justify-between items-center text-center py-10 ">
     <div>
-      <img src="../images/logo.svg" alt="logo" class="w-32 h-12">
+
+      <div class="text-center items-center flex lg:justify-between justify-center">
+        <img src="../images/logo.svg" alt="logo" class="w-22 h-12">
+      </div>
+      <ul class="flex lg:flex-row flex-col gap-6 text-center items-center py-7 ">
+        <li><a href="#" class="btn">About</a></li>
+        <li><a href="#" class="btn">Careers</a></li>
+        <li><a href="#" class="btn">Events</a></li>
+        <li><a href="#" class="btn">Products</a></li>
+        <li><a href="#" class="btn">Support</a></li>
+      </ul>
     </div>
     <!-- social media -->
-    <ul class="flex  gap-8 text-center items-center ">
-      <li><a href="#"><img src="../images/icon-facebook.svg" alt="facebook"></a></li>
-      <li><a href="#"><img src="../images/icon-twitter.svg" alt="twitter"></a></li>
-      <li><a href="#"><img src="../images/icon-pinterest.svg" alt="pinterest"></a></li>
-      <li><a href="#"><img src="../images/icon-instagram.svg" alt="instagram"></a></li>
-
-    </ul>
-  </nav>
-  <!-- second navbar -->
+    <div class="pb-8">
+      <ul class="flex  gap-8 items-center text-center justify-center ">
+        <li><a href="#" class="btn"><img src="../images/icon-facebook.svg" alt="facebook"></a></li>
+        <li><a href="#" class="btn"><img src="../images/icon-twitter.svg" alt="twitter"></a></li>
+        <li><a href="#" class="btn"><img src="../images/icon-pinterest.svg" alt="pinterest"></a></li>
+        <li><a href="#" class="btn"><img src="../images/icon-instagram.svg" alt="instagram"></a></li>
   
-    <ul class="flex gap-8 text-center items-center  text-white py-12">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Support</a></li>
-    </ul>
+      </ul>
+      <div class=" pt-12">
+         © 2021 Loopstudios. All rights reserved.
+        </div>
+    
+
+    </div>
+  
 
 
+  </nav>
+  <div class=" absolute right-2 bottom-2">
+    <p class=" text-gray-200 text-sm">Done by Suzaalx</p>
+  </div>
 </footer>
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- About
-  Careers
-  Events
-  Products
-  Support
-
-  Immersive experiences that deliver
-
-  The leader in interactive VR
-
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>. -->
-  <!-- </div> -->
-
 
 <script src="index.js"></script>
 </body>
-</html>
+</html> 
